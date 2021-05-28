@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player App</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="music-player">
+        <div class="music-player__cover">
+            <img src="img/borderline.jpg" alt="Cover for Borderline">
+            <div class="audio-playlist">
+                <button class="audio-playlist__button">
+                    <i class="fas fa-music"></i>
+                </button>
+                <ul class="audio-playlist__list">
+                    <li>
+                        <div>
+                            <span class="track-animation">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </span>
+                            <h4>Tame Impala - Borderline</h4>
+                        </div>
+                        <span class="track-duration">04:34</span>
+                    </li>
+                    <li>
+                        <h4>Tame Impala - Patience</h4>
+                        <span>04:52</span>
+                    </li>
+                    <li>
+                        <h4>Adele - Someone Like You</h4>
+                        <span>04:41</span>
+                    </li>
+                    <li>
+                        <h4>Disturbed - The Sound of Silence</h4>
+                        <span>04:02</span>
+                    </li>
+                    <li>
+                        <h4>Guano Apes - Open Your Eyes</h4>
+                        <span>03:09</span>
+                    </li>
+                    <li>
+                        <h4>Sum 41 - Never There</h4>
+                        <span>04:20</span>
+                    </li>
+                    <li>
+                        <h4>My Chemical Romance - Disenchanted</h4>
+                        <span>04:55</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <audio class="music-player__audio" src="audio/tame_impala-borderline.mp3"></audio>
+        <div class="music-player__info">
+            <div class="audio-info">
+                <h4 class="audio-info__name">Borderline</h4>
+                <span class="audio-info__artist">Tame Impala</span>
+            </div>
+            <div class="audio-controls">
+                <button id="backward">
+                    <i class="fas fa-step-backward"></i>
+                </button>
+                <button id="play">
+                    <i class="fas fa-play"></i>
+                </button>
+                <button id="forward">
+                    <i class="fas fa-step-forward"></i>
+                </button>
+            </div>
+            <div class="audio-progress">
+                <div class="audio-progress__track">
+                    <span style="width: 0;"></span>
+                </div>
+                <span class="audio-progress__duration">00:00</span>
+            </div>
+        </div>
+    </div>
+
+    <script defer src="./js/script.js"></script>
+</body>
+</html>

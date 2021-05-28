@@ -1,0 +1,46 @@
+{
+    "audio": [
+        {
+            "audioName": "Borderline",
+            "audioArtist": "Tame Impala",
+            "audioCover": "img/borderline.jpg",
+            "audioFile": "audio/tame_impala-borderline.mp3"
+        },
+        {
+            "audioName": "Patience",
+            "audioArtist": "Tame Impala",
+            "audioCover": "img/patience.jpg",
+            "audioFile": "audio/tame_impala-patience.mp3"
+        },
+        {
+            "audioName": "Someone Like You",
+            "audioArtist": "Adele",
+            "audioCover": "img/someone_like_you.jpg",
+            "audioFile": "audio/adele-someone_like_you.mp3"
+        },
+        {
+            "audioName": "The Sound of Silence",
+            "audioArtist": "Disturbed",
+            "audioCover": "img/the_sound_of_silence.jpg",
+            "audioFile": "audio/disturbed-the_sound_of_silence.mp3"
+        },
+        {
+            "audioName": "Open Your Eyes",
+            "audioArtist": "Guano Apes",
+            "audioCover": "img/open_your_eyes.jpg",
+            "audioFile": "audio/guano_apes-open_your_eyes.mp3"
+        },
+        {
+            "audioName": "Never There",
+            "audioArtist": "Sum 41",
+            "audioCover": "img/never_there.jpg",
+            "audioFile": "audio/sum_41-never_there.mp3"
+        },
+        {
+            "audioName": "Disenchanted",
+            "audioArtist": "My Chemical Romance",
+            "audioCover": "img/disenchanted.jpg",
+            "audioFile": "audio/my_chemical_romance-disenchanted.mp3"
+        }
+    ]
+}
