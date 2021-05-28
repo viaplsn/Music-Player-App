@@ -5,7 +5,7 @@ Simple music player app on vanilla JavaScript and Web Audio API.
 ___
 
 #### :link: Live Demo: 
-[Music Player App]()
+[Music Player App](https://viacheslavpliusnin.github.io/Music-Player-App/)
 
 [Design](https://t.me/assedo_studio_templates/73)
 ___
